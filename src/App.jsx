@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <div className="w-full top-0 flex justify-center items-center p-4">
-        <h1 className="text-2xl md:text-4xl text-gray-400">PRUEBA TECNICA</h1>
+        <h1 className="text-2xl md:text-7xl text-sky-700 text-shadow-sm"
+        style={{fontFamily:'mumboSSK'}}
+        >COUNTRY FINDER</h1>
       </div>
 
       <div className="flex gap-7 justify-center items-center p-2">
