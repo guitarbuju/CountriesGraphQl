@@ -7,7 +7,7 @@ const ConsoleLogButton = ({ selectedCountry }) => {
   return (
     <div>
       <button
-        className="bg-sky-700 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded cursor-pointer"
+        className="bg-sky-700 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded cursor-pointer  "
         onClick={() => countryConsoleLogger(selectedCountry)}
       >
         Print Country to the console
