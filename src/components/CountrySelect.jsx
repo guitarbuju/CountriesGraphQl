@@ -56,10 +56,19 @@ const CountrySelect = () => {
             ))}
           </select>
           {focus && selectedCountry && (
-            <p className="text-yellow-300">
-              <span>The Selected country is :{selectedCountry.name} </span>
-              <span>with code:{selectedCountry.code}</span>
-            </p>
+            <div className="text-yellow-300 flex flex-col">
+              <p>The Selected country is :</p>
+              <span className="text-gray-200 text-xl">
+                {selectedCountry.name}
+              </span>
+              <p>
+                with code:
+                <span className="text-gray-200 text-xl ml-2">
+                  {selectedCountry.code}
+                </span>{" "}
+                <span className="text-2xl p-2">{selectedCountry.emoji}</span>
+              </p>
+            </div>
           )}
         </div>
       </form>
